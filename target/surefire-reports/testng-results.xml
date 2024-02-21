@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="14277" started-at="2024-02-21T18:18:55 IST" finished-at="2024-02-21T18:19:10 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="14277" started-at="2024-02-21T18:18:55 IST" finished-at="2024-02-21T18:19:10 IST">
+      <class name="com.example.scripts.BrowserTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.example.scripts.BrowserTest@4cf777e8]" name="setUpDriver" is-config="true" duration-ms="2276" started-at="2024-02-21T18:18:55 IST" finished-at="2024-02-21T18:18:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testExample()[pri:0, instance:com.example.scripts.BrowserTest@4cf777e8]" name="testExample" duration-ms="11248" started-at="2024-02-21T18:18:58 IST" finished-at="2024-02-21T18:19:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.example.scripts.BrowserTest@4cf777e8]" name="quitDriver" is-config="true" duration-ms="708" started-at="2024-02-21T18:19:09 IST" finished-at="2024-02-21T18:19:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.example.scripts.BrowserTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

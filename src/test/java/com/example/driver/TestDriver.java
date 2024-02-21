@@ -2,6 +2,7 @@ package com.example.driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -11,8 +12,8 @@ public class TestDriver {
     @BeforeClass
     public static void setUpDriver() {
         System.setProperty("webdriver.http.factory", "jdk-http-client");
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-        driver = new ChromeDriver();
+        System.setProperty("webdriver.edge.driver", "drivers/msedgedriver.exe");
+        driver = new EdgeDriver();
         driver.manage().window().maximize();
     }
 
