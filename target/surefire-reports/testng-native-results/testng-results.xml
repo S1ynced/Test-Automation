@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="15775" started-at="2024-02-17T14:31:55 IST" finished-at="2024-02-17T14:32:11 IST">
+  <suite name="Surefire suite" duration-ms="14991" started-at="2024-02-21T14:57:54 IST" finished-at="2024-02-21T14:58:09 IST">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="15775" started-at="2024-02-17T14:31:55 IST" finished-at="2024-02-17T14:32:11 IST">
+    <test name="Surefire test" duration-ms="14991" started-at="2024-02-21T14:57:54 IST" finished-at="2024-02-21T14:58:09 IST">
       <class name="com.example.scripts.BrowserTest">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.example.scripts.BrowserTest@1ce92674]" name="setUpDriver" is-config="true" duration-ms="2462" started-at="2024-02-17T14:31:55 IST" finished-at="2024-02-17T14:31:58 IST">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.example.scripts.BrowserTest@5700d6b1]" name="setUpDriver" is-config="true" duration-ms="2629" started-at="2024-02-21T14:57:54 IST" finished-at="2024-02-21T14:57:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="testExample()[pri:0, instance:com.example.scripts.BrowserTest@1ce92674]" name="testExample" duration-ms="12458" started-at="2024-02-17T14:31:58 IST" finished-at="2024-02-17T14:32:10 IST">
+        <test-method status="PASS" signature="testExample()[pri:0, instance:com.example.scripts.BrowserTest@5700d6b1]" name="testExample" duration-ms="11540" started-at="2024-02-21T14:57:56 IST" finished-at="2024-02-21T14:58:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExample -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.example.scripts.BrowserTest@1ce92674]" name="quitDriver" is-config="true" duration-ms="802" started-at="2024-02-17T14:32:10 IST" finished-at="2024-02-17T14:32:11 IST">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.example.scripts.BrowserTest@5700d6b1]" name="quitDriver" is-config="true" duration-ms="769" started-at="2024-02-21T14:58:08 IST" finished-at="2024-02-21T14:58:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
